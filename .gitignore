@@ -1,0 +1,20 @@
+# Datos: demasiado pesados para el repo, viven en Google Drive (MiUnidad/EVA/)
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+*.csv
+*.xlsx
+*.zip
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
